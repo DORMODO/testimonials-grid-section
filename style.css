@@ -89,7 +89,6 @@ body {
   & .author-container {
     display: flex;
     gap: 2rem;
-    z-index: 2;
   }
 
   & .author-name {
@@ -137,6 +136,7 @@ body {
 
   & .author-name {
     color: var(--Light-gray);
+    z-index: 2;
   }
 
   & .author-state {
