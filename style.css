@@ -89,6 +89,7 @@ body {
   & .author-container {
     display: flex;
     gap: 2rem;
+    z-index: 2;
   }
 
   & .author-name {
@@ -132,7 +133,6 @@ body {
     position: absolute;
     top: 0;
     right: 8rem;
-    z-index: -2;
   }
 
   & .author-name {
