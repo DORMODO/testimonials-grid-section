@@ -127,11 +127,13 @@ body {
   background-color: var(--Moderate-violet);
   grid-column: span 2;
   position: relative;
+  z-index: 2;
 
   & svg {
     position: absolute;
     top: 0;
     right: 8rem;
+    z-index: -1;
   }
 
   & .author-name {
@@ -145,7 +147,6 @@ body {
 
   & .title-text {
     color: white;
-    z-index: 1;
   }
 
   & .review {
@@ -167,7 +168,6 @@ body {
 
   & .title-text {
     color: white;
-    z-index: 1;
   }
 
   & .review {
@@ -201,7 +201,7 @@ body {
 }
 
 .jeanette img, .kira img {
-   filter: blur(1px);
+   filter: blur(4px);
 }
 
 .jeanette .author-name,
