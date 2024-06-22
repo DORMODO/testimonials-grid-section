@@ -127,26 +127,23 @@ body {
   background-color: var(--Moderate-violet);
   grid-column: span 2;
   position: relative;
+  z-index: 1;
 
   & svg {
     position: absolute;
     top: 0;
     right: 8rem;
+    z-index: -1;
   }
-
   & .author-name {
     color: var(--Light-gray);
   }
-
   & .author-state {
     color: var(--Light-gray);
   }
-
   & .title-text {
     color: white;
-    z-index: 1;
   }
-
   & .review {
     color: var(--Light-gray);
   }
@@ -159,16 +156,13 @@ body {
   & .author-name {
     color: var(--Light-gray);
   }
-
   & .author-state {
     color: var(--Light-gray);
   }
-
   & .title-text {
     color: white;
     z-index: 1;
   }
-
   & .review {
     color: var(--Light-grayish-blue);
     opacity: 70%;
@@ -212,6 +206,10 @@ body {
   color: var(--grayish-blue);
 }
 
+.jeanette img, .kira img {
+  filter: blur(3px);
+}
+
 @media (max-width: 1200px) {
   body {
     min-height: 100vh;
@@ -241,5 +239,4 @@ body {
     margin: 3rem;
     gap: 3rem;
   }
-
 }
