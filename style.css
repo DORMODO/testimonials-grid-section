@@ -192,7 +192,9 @@ body {
   border: 2px solid var(--Moderate-violet);
 }
 
-
+.jeanette img, .kira img {
+  filter: blur(4px);
+}
 
 .jeanette .author-name,
 .kira .author-name,
