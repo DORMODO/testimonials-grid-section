@@ -161,7 +161,6 @@ body {
   }
   & .title-text {
     color: white;
-    z-index: 1;
   }
   & .review {
     color: var(--Light-grayish-blue);
